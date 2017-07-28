@@ -1,5 +1,5 @@
 import graphene
-from app.models import *
+from .models import *
 from graphene import Node
 from  graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
